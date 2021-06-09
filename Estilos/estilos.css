@@ -1,0 +1,523 @@
+@media only screen and (min-width: 1200px) {
+  body {
+    background-image: linear-gradient(to bottom, #140202, #e4dcdc); }
+    body #bienvenida-usuario {
+      text-align: center;
+      color: cornsilk;
+      font-size: small; }
+    body #busqueda-general {
+      background-color: #f3eded;
+      padding: 1%;
+      justify-content: space-around;
+      display: grid;
+      grid-template-columns: 40% 30% 20% 10%; }
+      body #busqueda-general #logo {
+        height: 100%;
+        width: 45%;
+        grid-column: 1/2; }
+      body #busqueda-general #busquedageneral {
+        grid-column: 3/4;
+        text-align: center; }
+      body #busqueda-general #btnBuscarGeneral {
+        background-color: #3d3d3d;
+        color: cornsilk;
+        grid-column: 4/5;
+        width: 70%;
+        margin-right: 0;
+        margin-left: 15%; }
+    body #barra-busqueda {
+      padding: 1%;
+      display: grid;
+      grid-template-columns: 25% 5% 70%; }
+      body #barra-busqueda #busqueda {
+        background-image: url(../Images/red-trabajo.jpg);
+        background-size: contain;
+        padding: 1%;
+        grid-column: 1/2;
+        display: grid;
+        grid-template-rows: 8% 9% 2% 9% 2% 9% 2% 9% 2% 8% 2% 8% 2% 8% 2% 8% 2% 8%; }
+      body #barra-busqueda p {
+        font-weight: bolder;
+        background-color: cornsilk;
+        text-align: center;
+        margin-top: 5%;
+        padding: 1%; }
+      body #barra-busqueda #empresa {
+        grid-row: 2/3;
+        margin-top: 10%;
+        margin-bottom: 10%;
+        width: 100%;
+        font-weight: bold; }
+      body #barra-busqueda #tipoempleo {
+        grid-row: 4/5;
+        margin-top: 10%;
+        margin-bottom: 10%;
+        width: 100%;
+        font-weight: bold; }
+      body #barra-busqueda #salariominimo {
+        grid-row: 6/7;
+        margin-top: 10%;
+        margin-bottom: 10%;
+        width: 100%;
+        font-weight: bold; }
+      body #barra-busqueda #nivellaboral {
+        grid-row: 8/9;
+        margin-top: 10%;
+        margin-bottom: 10%;
+        width: 100%;
+        font-weight: bold; }
+      body #barra-busqueda #jornadasemana {
+        grid-row: 10/11;
+        margin-top: 10%;
+        margin-bottom: 10%;
+        width: 100%;
+        font-weight: bold; }
+      body #barra-busqueda #jornadadia {
+        grid-row: 12/13;
+        margin-top: 10%;
+        margin-bottom: 10%;
+        width: 100%;
+        font-weight: bold; }
+      body #barra-busqueda #paisempleo {
+        grid-row: 14/15;
+        margin-top: 10%;
+        margin-bottom: 10%;
+        width: 100%;
+        font-weight: bold; }
+      body #barra-busqueda #ubicacion {
+        grid-row: 16/17;
+        margin-top: 10%;
+        margin-bottom: 10%;
+        width: 100%;
+        font-weight: bold; }
+      body #barra-busqueda #btnBuscar {
+        grid-row: 18/19;
+        margin-top: 10%;
+        margin-bottom: 10%;
+        width: 100%;
+        font-weight: bold; }
+      body #barra-busqueda #empleos-buscados {
+        grid-column: 3/4;
+        position: absolute;
+        top: 1%;
+        right: 5%;
+        left: 1%;
+        width: 90%; }
+        body #barra-busqueda #empleos-buscados .cardEmpleo {
+          font-size: small;
+          border: 3px solid #948787;
+          margin: 1%;
+          background-color: #dac7d0; }
+          body #barra-busqueda #empleos-buscados .cardEmpleo p {
+            background-color: #dac7d0; }
+          body #barra-busqueda #empleos-buscados .cardEmpleo h1 {
+            text-decoration: none;
+            font-family: 'Poppins', sans-serif;
+            font-size: medium;
+            text-align: center;
+            margin-top: 5%;
+            margin-right: 10%;
+            margin-left: 10%;
+            color: #140202;
+            background-color: #f3eded; }
+            body #barra-busqueda #empleos-buscados .cardEmpleo h1 h1:hover {
+              background-color: #ffffff;
+              color: #121212; }
+    body footer {
+      background-image: linear-gradient(to right, #121212, #665f5f);
+      padding: 6px;
+      color: #d1cdcd; } }
+@media only screen and (min-width: 768px) and (max-width: 1200px) {
+  body {
+    background-image: linear-gradient(to bottom, #140202, #e4dcdc); }
+    body #bienvenida-usuario {
+      text-align: center;
+      color: cornsilk;
+      font-size: small; }
+    body #busqueda-general {
+      background-color: #f3eded;
+      padding: 1%;
+      justify-content: space-around;
+      display: grid;
+      grid-template-columns: 40% 12% 30% 18%; }
+      body #busqueda-general #logo {
+        height: 100%;
+        width: 60%;
+        grid-column: 1/2; }
+      body #busqueda-general #busquedageneral {
+        grid-column: 3/4;
+        text-align: center; }
+      body #busqueda-general #btnBuscarGeneral {
+        background-color: #3d3d3d;
+        color: cornsilk;
+        grid-column: 4/5;
+        width: 70%;
+        margin-right: 0;
+        margin-left: 12%; }
+    body #barra-busqueda {
+      margin-top: 5%;
+      padding: 1%;
+      display: grid;
+      grid-template-columns: 35% 5% 60%; }
+      body #barra-busqueda #busqueda {
+        background-image: url(../Images/red-trabajo.jpg);
+        background-size: contain;
+        padding: 1%;
+        grid-column: 1/2;
+        display: grid;
+        grid-template-rows: 8% 9% 2% 9% 2% 9% 2% 9% 2% 8% 2% 8% 2% 8% 2% 8% 2% 8%; }
+      body #barra-busqueda p {
+        grid-row: 1/2;
+        font-weight: bolder;
+        background-color: cornsilk;
+        text-align: center;
+        margin-top: 1%; }
+      body #barra-busqueda #empresa {
+        grid-row: 2/3;
+        margin-top: 10%;
+        margin-bottom: 10%;
+        width: 100%;
+        font-weight: bold; }
+      body #barra-busqueda #tipoempleo {
+        grid-row: 4/5;
+        margin-top: 10%;
+        margin-bottom: 10%;
+        width: 100%;
+        font-weight: bold; }
+      body #barra-busqueda #salariominimo {
+        grid-row: 6/7;
+        margin-top: 10%;
+        margin-bottom: 10%;
+        width: 100%;
+        font-weight: bold; }
+      body #barra-busqueda #nivellaboral {
+        grid-row: 8/9;
+        margin-top: 10%;
+        margin-bottom: 10%;
+        width: 100%;
+        font-weight: bold; }
+      body #barra-busqueda #jornadasemana {
+        grid-row: 10/11;
+        margin-top: 10%;
+        margin-bottom: 10%;
+        width: 100%;
+        font-weight: bold; }
+      body #barra-busqueda #jornadadia {
+        grid-row: 12/13;
+        margin-top: 10%;
+        margin-bottom: 10%;
+        width: 100%;
+        font-weight: bold; }
+      body #barra-busqueda #paisempleo {
+        grid-row: 14/15;
+        margin-top: 10%;
+        margin-bottom: 10%;
+        width: 100%;
+        font-weight: bold; }
+      body #barra-busqueda #ubicacion {
+        grid-row: 16/17;
+        margin-top: 10%;
+        margin-bottom: 10%;
+        width: 100%;
+        font-weight: bold; }
+      body #barra-busqueda #btnBuscar {
+        grid-row: 18/19;
+        margin-top: 10%;
+        margin-bottom: 10%;
+        width: 100%;
+        font-weight: bold; }
+      body #barra-busqueda #empleos-buscados {
+        grid-column: 3/4;
+        position: absolute;
+        top: 1%;
+        right: 5%;
+        left: 1%;
+        width: 90%; }
+        body #barra-busqueda #empleos-buscados .cardEmpleo {
+          font-size: small;
+          border: 3px solid #948787;
+          margin: 1%;
+          background-color: #dac7d0; }
+          body #barra-busqueda #empleos-buscados .cardEmpleo p {
+            background-color: #dac7d0; }
+          body #barra-busqueda #empleos-buscados .cardEmpleo h1 {
+            text-decoration: none;
+            font-family: 'Poppins', sans-serif;
+            font-size: medium;
+            text-align: center;
+            margin-top: 5%;
+            margin-right: 10%;
+            margin-left: 10%;
+            color: #140202;
+            background-color: #f3eded; }
+            body #barra-busqueda #empleos-buscados .cardEmpleo h1 h1:hover {
+              background-color: #ffffff;
+              color: #121212; }
+    body footer {
+      background-image: linear-gradient(to right, #121212, #665f5f);
+      padding: 6px;
+      color: #d1cdcd; } }
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+  body {
+    background-image: linear-gradient(to bottom, #140202, #e4dcdc); }
+    body #bienvenida-usuario {
+      text-align: center;
+      color: cornsilk;
+      font-size: small; }
+    body #busqueda-general {
+      background-color: #f3eded;
+      padding: 1%;
+      justify-content: space-around;
+      display: grid;
+      grid-template-columns: 30% 15% 35% 20%; }
+      body #busqueda-general #logo {
+        height: 100%;
+        width: 70%;
+        grid-column: 1/2; }
+      body #busqueda-general #busquedageneral {
+        grid-column: 3/4;
+        text-align: center; }
+      body #busqueda-general #btnBuscarGeneral {
+        background-color: #3d3d3d;
+        color: cornsilk;
+        grid-column: 4/5;
+        width: 70%;
+        margin-right: 0;
+        margin-left: 12%; }
+    body #barra-busqueda {
+      margin-top: 8%;
+      padding: 1%;
+      display: grid;
+      grid-template-columns: 35% 5% 60%; }
+      body #barra-busqueda #busqueda {
+        background-image: url(../Images/red-trabajo.jpg);
+        background-size: contain;
+        padding: 1%;
+        grid-column: 1/2;
+        display: grid;
+        grid-template-rows: 8% 9% 2% 9% 2% 9% 2% 9% 2% 8% 2% 8% 2% 8% 2% 8% 2% 8%; }
+      body #barra-busqueda p {
+        grid-row: 1/2;
+        font-weight: bolder;
+        background-color: cornsilk;
+        text-align: center;
+        font-size: small;
+        margin-top: 5%; }
+      body #barra-busqueda #empresa {
+        grid-row: 2/3;
+        margin-top: 10%;
+        margin-bottom: 10%;
+        width: 100%;
+        font-weight: bold; }
+      body #barra-busqueda #tipoempleo {
+        grid-row: 4/5;
+        margin-top: 10%;
+        margin-bottom: 10%;
+        width: 100%;
+        font-weight: bold; }
+      body #barra-busqueda #salariominimo {
+        grid-row: 6/7;
+        margin-top: 10%;
+        margin-bottom: 10%;
+        width: 100%;
+        font-weight: bold; }
+      body #barra-busqueda #nivellaboral {
+        grid-row: 8/9;
+        margin-top: 10%;
+        margin-bottom: 10%;
+        width: 100%;
+        font-weight: bold; }
+      body #barra-busqueda #jornadasemana {
+        grid-row: 10/11;
+        margin-top: 10%;
+        margin-bottom: 10%;
+        width: 100%;
+        font-weight: bold; }
+      body #barra-busqueda #jornadadia {
+        grid-row: 12/13;
+        margin-top: 10%;
+        margin-bottom: 10%;
+        width: 100%;
+        font-weight: bold; }
+      body #barra-busqueda #paisempleo {
+        grid-row: 14/15;
+        margin-top: 10%;
+        margin-bottom: 10%;
+        width: 100%;
+        font-weight: bold; }
+      body #barra-busqueda #ubicacion {
+        grid-row: 16/17;
+        margin-top: 10%;
+        margin-bottom: 10%;
+        width: 100%;
+        font-weight: bold; }
+      body #barra-busqueda #btnBuscar {
+        grid-row: 18/19;
+        margin-top: 10%;
+        margin-bottom: 10%;
+        width: 100%;
+        font-weight: bold; }
+      body #barra-busqueda #empleos-buscados {
+        grid-column: 3/4;
+        position: absolute;
+        top: 1%;
+        right: 5%;
+        left: 1%;
+        width: 90%; }
+        body #barra-busqueda #empleos-buscados .cardEmpleo {
+          font-size: small;
+          border: 3px solid #948787;
+          margin: 1%;
+          background-color: #dac7d0; }
+          body #barra-busqueda #empleos-buscados .cardEmpleo p {
+            background-color: #dac7d0; }
+          body #barra-busqueda #empleos-buscados .cardEmpleo h1 {
+            text-decoration: none;
+            font-family: 'Poppins', sans-serif;
+            font-size: medium;
+            text-align: center;
+            margin-top: 5%;
+            margin-right: 10%;
+            margin-left: 10%;
+            color: #140202;
+            background-color: #f3eded; }
+            body #barra-busqueda #empleos-buscados .cardEmpleo h1 h1:hover {
+              background-color: #ffffff;
+              color: #121212; }
+    body footer {
+      background-image: linear-gradient(to right, #121212, #665f5f);
+      padding: 6px;
+      color: #d1cdcd; } }
+@media only screen and (max-width: 600px) {
+  body {
+    background-image: linear-gradient(to bottom, #140202, #e4dcdc); }
+    body #bienvenida-usuario {
+      text-align: center;
+      color: cornsilk;
+      font-size: small; }
+    body #busqueda-general {
+      background-color: #f3eded;
+      padding: 1%;
+      justify-content: space-around;
+      display: grid;
+      grid-template-columns: 30% 15% 35% 20%; }
+      body #busqueda-general #logo {
+        height: 100%;
+        width: 120%;
+        grid-column: 1/2; }
+      body #busqueda-general #busquedageneral {
+        grid-column: 3/4;
+        text-align: center; }
+      body #busqueda-general #btnBuscarGeneral {
+        background-color: #3d3d3d;
+        color: cornsilk;
+        grid-column: 4/5;
+        width: 70%;
+        margin-right: 0;
+        margin-left: 12%; }
+    body #barra-busqueda {
+      margin-top: 8%;
+      padding: 1%;
+      display: grid;
+      grid-template-columns: 45% 2% 53%; }
+      body #barra-busqueda #busqueda {
+        background-image: url(../Images/red-trabajo.jpg);
+        background-size: contain;
+        padding: 1%;
+        grid-column: 1/2;
+        display: grid;
+        grid-template-rows: 8% 9% 2% 9% 2% 9% 2% 9% 2% 8% 2% 8% 2% 8% 2% 8% 2% 8%; }
+      body #barra-busqueda p {
+        grid-row: 1/2;
+        font-weight: bolder;
+        background-color: cornsilk;
+        text-align: center;
+        font-size: small;
+        margin-top: 5%; }
+      body #barra-busqueda #empresa {
+        grid-row: 2/3;
+        margin-top: 10%;
+        margin-bottom: 10%;
+        width: 100%;
+        font-weight: bold; }
+      body #barra-busqueda #tipoempleo {
+        grid-row: 4/5;
+        margin-top: 10%;
+        margin-bottom: 10%;
+        width: 100%;
+        font-weight: bold; }
+      body #barra-busqueda #salariominimo {
+        grid-row: 6/7;
+        margin-top: 10%;
+        margin-bottom: 10%;
+        width: 100%;
+        font-weight: bold; }
+      body #barra-busqueda #nivellaboral {
+        grid-row: 8/9;
+        margin-top: 10%;
+        margin-bottom: 10%;
+        width: 100%;
+        font-weight: bold; }
+      body #barra-busqueda #jornadasemana {
+        grid-row: 10/11;
+        margin-top: 10%;
+        margin-bottom: 10%;
+        width: 100%;
+        font-weight: bold; }
+      body #barra-busqueda #jornadadia {
+        grid-row: 12/13;
+        margin-top: 10%;
+        margin-bottom: 10%;
+        width: 100%;
+        font-weight: bold; }
+      body #barra-busqueda #paisempleo {
+        grid-row: 14/15;
+        margin-top: 10%;
+        margin-bottom: 10%;
+        width: 100%;
+        font-weight: bold; }
+      body #barra-busqueda #ubicacion {
+        grid-row: 16/17;
+        margin-top: 10%;
+        margin-bottom: 10%;
+        width: 100%;
+        font-weight: bold; }
+      body #barra-busqueda #btnBuscar {
+        grid-row: 18/19;
+        margin-top: 10%;
+        margin-bottom: 10%;
+        width: 100%;
+        font-weight: bold; }
+      body #barra-busqueda #empleos-buscados {
+        grid-column: 3/4;
+        position: absolute;
+        top: 1%;
+        right: 5%;
+        left: 1%;
+        width: 90%; }
+        body #barra-busqueda #empleos-buscados .cardEmpleo {
+          font-size: small;
+          border: 3px solid #948787;
+          margin: 1%;
+          background-color: #dac7d0; }
+          body #barra-busqueda #empleos-buscados .cardEmpleo p {
+            background-color: #dac7d0; }
+          body #barra-busqueda #empleos-buscados .cardEmpleo h1 {
+            text-decoration: none;
+            font-family: 'Poppins', sans-serif;
+            font-size: medium;
+            text-align: center;
+            margin-top: 5%;
+            margin-right: 10%;
+            margin-left: 10%;
+            color: #140202;
+            background-color: #f3eded; }
+            body #barra-busqueda #empleos-buscados .cardEmpleo h1 h1:hover {
+              background-color: #ffffff;
+              color: #121212; }
+    body footer {
+      background-image: linear-gradient(to right, #121212, #665f5f);
+      padding: 6px;
+      color: #d1cdcd; } }
+
+/*# sourceMappingURL=estilos.css.map */
